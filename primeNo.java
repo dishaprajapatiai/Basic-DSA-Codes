@@ -5,8 +5,9 @@ public class primeNo{
         boolean isPrimeNum = true;
         if(n <= 1){
             System.out.println("Not a prime no");
+            return;
         }
-        for(int i = 2 ;i< Math.sqrt(n) ;i++){
+        for(int i = 2 ;i<= Math.sqrt(n) ;i++){
             if(n % i == 0){
                 isPrimeNum = false;
                 break;
