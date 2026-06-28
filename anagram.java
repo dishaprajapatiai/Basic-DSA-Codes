@@ -3,7 +3,6 @@ public class anagram {
     public static void main(String[] args) {
         String s = "hello";
         String t = "elolh";
-
         char[] c1 = s.toCharArray();
         char[] c2 = t.toCharArray();
 
