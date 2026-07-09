@@ -9,6 +9,8 @@ public class removeDuplicatesFromArray {
             set.add(arr[i]);
         }
         // System.out.println(set);
+
+        
         // To return a new array
         int[] result = new int[set.size()];
         int index = 0;
