@@ -1,11 +1,10 @@
 import java.util.*;
 public class primeNo{
     public static void main(String[] args){
-        int n = 37;
+        int n = 30;
         boolean isPrimeNum = true;
         if(n <= 1){
-            System.out.println("Not a prime no");
-            return;
+            isPrimeNum = false;           
         }
         for(int i = 2 ;i<= Math.sqrt(n) ;i++){
             if(n % i == 0){
