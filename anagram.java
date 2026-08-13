@@ -6,6 +6,7 @@ public class anagram {
         char[] c1 = s.toCharArray();
         char[] c2 = t.toCharArray();
 
+       
         Arrays.sort(c1);
         Arrays.sort(c2);
 
