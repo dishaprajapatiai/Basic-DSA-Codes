@@ -11,4 +11,3 @@ public class maxNumber {
         System.out.println("The max value is: "+ maxValue);
     }
 }
-
